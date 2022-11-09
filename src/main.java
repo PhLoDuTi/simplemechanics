@@ -5,7 +5,7 @@ public class main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); 
 
-        System.out.println("Hello World! How's your day? \n (1 for \"Yes\", 0 for \"No\"): ");
+        System.out.println("Hello World! How's your day? \n (1 for \"Yes\", 0 for \"No\". \n 0 will be picked by default): ");
 
         int a = sc.nextInt();  
         if (a == 0){
