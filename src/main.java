@@ -8,7 +8,7 @@ public class main{
         System.out.println("Hello World! How's your day? \n (1 for \"Yes\", 0 for \"No\". \n 0 will be picked by default): ");
 
         int a = sc.nextInt();  
-        if (a == 0){
+        if (a == 1){
             System.out.println("Very good! Have a good one!");
         } else {
             System.out.println("Oh well, there's always tomorrow.");
